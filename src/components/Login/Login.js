@@ -17,7 +17,7 @@ const Login = (props) => {
 
     return () => {
       console.log('EFFECT CLEANUP');
-    }
+    };
   }, [enteredPassword]);
 
   useEffect(() => {
